@@ -1,0 +1,116 @@
+body {
+    font-family: Cambria;
+}
+
+.container{
+    display: flex;
+}
+
+nav {
+    display: flex;
+    color: white;
+    background-color: rgb(245, 117, 25);
+    width: 420px;
+    height: 1000px;
+    font-size: 23px;
+    font-family: Cambria;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 23px;
+    border: 3px solid black;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    background-color: rgb(243, 243, 89);
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    border: 3px solid black;
+    width: 100%;
+    justify-content: center;
+}
+
+.abt_me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.abt_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17.5px;
+}
+
+.abt_img {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    border: 4px solid rgb(1, 77, 77);
+    margin-left: 33px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans';
+}
+
+#train {
+    width: 200px;
+    height: 200px;
+    border: 4px solid teal;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.academics_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 17.5px;
+}
+
+.academics_imgs {
+    display: flex;
+    background-color: rgb(241, 166, 61);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.extra_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 17.5px;
+}
+
+.extra_imgs {
+    display: flex;
+    background-color: rgb(241, 166, 61);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
